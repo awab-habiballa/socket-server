@@ -1,0 +1,18 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "main": "socket/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon socket/app.js",
+    "start": "node socket/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1"
+  }
+}
